@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@700&family=Open+Sans&family=Roboto+Mono&family=Roboto:wght@300&display=swap');
+
+header {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.first-para {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+#text-highlight {
+    color: red;
+}
+
+.image1 {
+    width: 400px;
+    height: 400px;
+}
+
+.image2 {
+    width: 300px;
+    height: 400px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.mid-container {
+    display: grid;
+    grid-template-columns: max-content(2);
+    grid-column-gap: 0px;
+}
+
+.sub-para,
+.sub-topic,
+.square-description {
+    display: flex;
+    align-items: center;
+}
+
+.square-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-align {
+    grid-column: 1;
+}
+
+.sub-topic {
+    margin-left: 50px;
+}
+
+.right-align {
+    grid-column: 2;
+    background-color: lavender;
+    height: auto;
+    width: 500px;
+}
+
+.red-square {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin-right: 10px;
+}
+
+.topic {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-para {
+    margin-left: 100px;
+    max-width: 600px;
+    text-align: justify;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blue-square {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Agbalumo', sans-serif;
+}
+
+.heading {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+
+.sub-heading{
+    margin-top: 5px;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-heading-1{
+    margin-top: 5px;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#image4{
+    height: 200px;
+    width: 300px;
+}
+
+#caption{
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.sub-square-1{
+    background-color: olivedrab;
+    width: 500px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.sub-heading{
+    color: white;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.list{
+    display: flex;
+}
+
+.list-topics{
+    font-size: medium;
+    font-weight: bold;
+    justify-content: left;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.mid-span{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.list-answers{
+    color: blue;
+    font-size: medium;
+    font-weight: bolder;
+    justify-content: left;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sub-square-2{
+    background-color: blueviolet;
+    width: 500px;
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+a{
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: blue;
+}
